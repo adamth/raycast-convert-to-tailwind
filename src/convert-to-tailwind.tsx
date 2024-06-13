@@ -48,8 +48,7 @@ export default function Command() {
 
   const getLabel = () => {
     if (!currentInput) return "";
-    if (tw?.isExact)
-      return `Exactly ${tw.value?.label} (${tw?.value?.width}, ${tw?.value?.px}px)`;
+    if (tw?.isExact) return `Exactly ${tw.value?.label} (${tw?.value?.width}, ${tw?.value?.px}px)`;
     return `Closest match is ${tw?.value?.label} (${tw?.value?.width}, ${tw?.value?.px}px)`;
   };
 
@@ -66,10 +65,7 @@ export default function Command() {
               title={getLabel()}
               actions={
                 <ActionPanel title="Copy">
-                  <Action.CopyToClipboard
-                    title="Copy To Clipboard"
-                    content={tw?.value?.label || ""}
-                  />
+                  <Action.CopyToClipboard title="Copy To Clipboard" content={tw?.value?.label || ""} />
                 </ActionPanel>
               }
             />
@@ -80,10 +76,7 @@ export default function Command() {
                 title={`--tw-${currentInput} is ${px}`}
                 actions={
                   <ActionPanel title="Copy">
-                    <Action.CopyToClipboard
-                      title="Copy To Clipboard"
-                      content={px}
-                    />
+                    <Action.CopyToClipboard title="Copy To Clipboard" content={px} />
                   </ActionPanel>
                 }
               />
