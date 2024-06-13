@@ -5,6 +5,7 @@
   "description": "Converts pixels to Tailwind class values and back, with extra support for old size values",
   "icon": "icon.png",
   "author": "adamth",
+  "owner": "fluent-cargo-aus",
   "categories": [
     "Developer Tools",
     "Design Tools"
