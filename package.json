@@ -1,10 +1,10 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "px-to-tailwind",
-  "title": "Px to Tailwind",
-  "description": "Converts pixels to Tailwind class values and back",
+  "name": "px-to-tailwind-fc",
+  "title": "Px to Tailwind (Fluent Cargo)",
+  "description": "Converts pixels to Tailwind class values and back, with extra support for old size values",
   "icon": "icon.png",
-  "author": "kemiljk",
+  "author": "adamth",
   "categories": [
     "Developer Tools",
     "Design Tools"
